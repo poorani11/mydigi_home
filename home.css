@@ -1,21 +1,29 @@
 .landing {
   width:100vw;
   height:100vh;
-    background-image:linear-gradient(50deg,rgba(119,39,180,0.85),rgba(3,169,244,.65)),url("images/dark_6.png");
-  background-repeat: no-repe
+    background-image:url("images/hero-home-2.jpg");
+  background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   background-position: 10%  0;
 }
+.land_container{
+     top: 50%;
+  transform: translateY(-80%);
+  position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+#hero_p{
+    font-family: 'Montserrat', sans-serif;
+            color: #bdbdbd;
+    margin-right: 5%;
+    margin-top: -2%;
 
-.navbar-brand>img {
-   height: auto;
-   width: auto;
-   margin: 0 auto;
-
-
-   /* probably not needed anymore, but doesn't hurt */
-   -o-object-fit: contain;
-   object-fit: contain; 
-
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: .25px;
+    line-height: 29px;
 }
