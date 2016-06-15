@@ -7,6 +7,33 @@
   background-size: cover;
   background-position: 10%  0;
 }
+#navv{
+width:100%;
+height:40px;
+background: rgba(255,255,255,0);
+}
+#ul_title{
+  margin:0px;
+}
+#title{
+  display:block;
+  float: right;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#nav-title{
+font-family: 'Montserrat', sans-serif;
+color:#dbdbdb;
+    font-size: 19px;
+    font-weight: 200;
+    letter-spacing: 4.25px;
+    text-decoration: none;
+}
+#nav-title:hover{
+  color:#bdbdbd;
+}
+
 .land_container{
      top: 50%;
   transform: translateY(-70%);
@@ -57,4 +84,13 @@ color:black;
 }
 #btn-blue:hover{
     background: #036486;
+}
+.hero-arrow{
+position: absolute;
+    bottom:10px;
+    left:50%;
+    transform:translateX(-50%);
+    height: 25px;
+    width: 50px;
+    background: url("images/down-arrow.svg") no-repeat;
 }
