@@ -1,0 +1,21 @@
+.landing {
+  width:100vw;
+  height:100vh;
+    background-image:linear-gradient(50deg,rgba(119,39,180,0.85),rgba(3,169,244,.65)),url("images/dark_6.png");
+  background-repeat: no-repe
+  background-position: top;
+  background-size: cover;
+  background-position: 10%  0;
+}
+
+.navbar-brand>img {
+   height: auto;
+   width: auto;
+   margin: 0 auto;
+
+
+   /* probably not needed anymore, but doesn't hurt */
+   -o-object-fit: contain;
+   object-fit: contain; 
+
+}
