@@ -9,7 +9,7 @@
 }
 .land_container{
      top: 50%;
-  transform: translateY(-80%);
+  transform: translateY(-70%);
   position: relative;
     text-align: center;
     color: white;
@@ -26,4 +26,35 @@
     font-weight: 200;
     letter-spacing: .25px;
     line-height: 29px;
+}
+#search_form{
+    margin-top: 5%;
+}
+#form1{
+    margin-right: 5px;
+    height:40px;
+    width: 275px;
+    font-size: 17px;
+color:black;
+
+}
+#form2{
+     margin-right: 5px;
+    height:40px;
+    width: 375px;
+}
+#btn-blue{
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: .25px;
+    height:2em;
+    margin-top: -1%;
+    background: #03A9F4;
+    color: #fff;
+    text-shadow: 0 -1px 0 #03A9F4;
+}
+#btn-blue:hover{
+    background: #036486;
 }
