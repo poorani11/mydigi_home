@@ -186,7 +186,6 @@ text-decoration: none;
   overflow-x:hidden;
   overflow-y:hidden;
 }
-}
 #sel1{
    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -199,7 +198,7 @@ text-decoration: none;
   transform: translateX(2%);
 }
 #sub_name{
-  width:355px;
+  width:365px;
 }
 #tog{
   height:43px;
