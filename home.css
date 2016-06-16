@@ -199,8 +199,39 @@ text-decoration: none;
   transform: translateX(2%);
 }
 #sub_name{
-  width:365px;
+  width:355px;
 }
 #tog{
   height:43px;
+}
+.display {
+  list-style: none;
+}
+#thumb{
+    height:150px;
+    width:150px;
+}
+
+.thumb {
+  float: left;
+  margin: 0.5em 1.5em 1.5em 0;
+  padding-bottom: 1em;
+}
+
+#content-display{
+  background-color: #E8E8E8;
+    transform: translateX(3%);
+    height: 190px;
+}
+#place-name{
+    font-weight: 100;
+    letter-spacing: 2.25px;
+}
+#icon-wrapper {
+    padding: 0px;
+        display: inline-block;
+}
+#contact-icons{
+  width:2.25em;
+  color:#3f3f3f;
 }
