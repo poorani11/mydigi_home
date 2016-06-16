@@ -1,4 +1,8 @@
-.landing {
+
+body{
+    overflow-x:hidden;
+  }
+  .landing {
   width:100vw;
   height:100vh;
     background-image:url("images/hero-home-2.jpg");
@@ -29,6 +33,15 @@ color:#dbdbdb;
     font-weight: 200;
     letter-spacing: 4.25px;
     text-decoration: none;
+}
+#about{
+  font-family: 'Montserrat', sans-serif;
+color:#f84545;
+    font-size: 19px;
+    font-weight: 200;
+    letter-spacing: 4.25px;
+    text-decoration: none;
+
 }
 #nav-title:hover{
   color:#bdbdbd;
@@ -87,6 +100,10 @@ border-radius: 0;
 }
 #btn-blue:hover{
     background: #036486;
+}
+#search{
+  text-decoration: none;
+  color: white;
 }
 .hero-arrow{
 position: absolute;
@@ -234,3 +251,50 @@ text-decoration: none;
   width:2.25em;
   color:#3f3f3f;
 }
+
+ .desicontainer {
+    text-align: center;
+  }
+    
+    #desiimg{
+      margin-top: 80px;
+      width: 130px;
+      height: 130px;
+    }
+    #des{
+      color:grey;
+      line-height: 36px;
+      margin-bottom: 10px;
+      font-family: 'Nunito', sans-serif;
+    }
+    #des1{
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top:1px solid grey;
+      color:grey;
+      line-height: 25px; 
+      font-family: 'Varela Round', sans-serif;
+    }
+  
+  .about{
+    margin-top:50px;
+    text-align: center;
+  }
+    .abt{
+      width:32.33%;
+      display: inline-block;
+      background-color:#F6F6F8;
+    }
+      #abimg{
+        margin-top: 20px;
+      }
+      .headin{
+        font-family: 'Nunito', sans-serif;
+        color:grey;
+      }
+      .para{
+        margin-top: 30px;
+        line-height:25px;
+        color:grey;
+        font-family: 'Varela Round', sans-serif;
+      }  
