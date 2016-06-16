@@ -149,3 +149,58 @@ position: absolute;
  .portfolio-item a:hover{
 text-decoration: none;
  }
+ #navv1{
+  height:80px;
+ }
+ #links{
+  transform: translateY(30%);
+  font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+    letter-spacing: 1.25px;
+    text-decoration: none
+ }
+ #img{
+  transform: translateY(30%);
+ }
+ #form11{
+    height:40px;
+    width: 270px;
+    border-radius: 0;
+ }
+ #search_for{
+   transform: translateX(15%);
+
+}
+#divv{
+  padding-left: 40px;
+}
+#column{
+  background-color: #E8E8E8;
+  padding: 0px;
+  padding-top: 10px;
+  width:390px;
+}
+#display_body{
+  background-color: #C2C2C2;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+}
+#sel1{
+   font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.25px;
+    text-decoration: none
+}
+#sub{
+  margin-top: 40px;
+  transform: translateX(2%);
+}
+#sub_name{
+  width:365px;
+}
+#tog{
+  height:43px;
+}
